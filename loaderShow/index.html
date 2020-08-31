@@ -47,27 +47,27 @@
               <h7>Image Processing</h7>
           </div>
           <div>
-            <h4>Kernels</h4>
-              <h7>Blur</h7>
-          </div>
-          <div>
-            <h4>Parameters Filter</h4>
-            <input type="text" id="params" min="1" size="40" placeholder="default: run all the case"/>  for example: (1280x720, CV_8UC1, BORDER_REPLICATE)
-          </div>
-          <div class='row labels-wrapper' id='labelitem'></div>
-          <div class="row top-margin">
-          </div>
-          <div>
-          <button type="button" id="runButton" class="btn btn-primary disabled" disabled="disabled">Loading</button>
-            (It will take several minutes)</div>
-          <div class="row top-margin">
-          </div>
-          <div>
-            <pre id="log"></pre>
+              <h4>Kernels</h4>
+                <h7>gaussianBlur</h7>
+            </div>
+            <div>
+              <h4>Parameters Filter</h4>
+              <input type="text" id="params" min="1" size="40" placeholder="default: run all the case"/>  for example: (1280x720, CV_8UC1, BORDER_REPLICATE)
+            </div>
+            <div class='row labels-wrapper' id='labelitem'></div>
+            <div class="row top-margin">
+            </div>
+            <div>
+            <button type="button" id="runButton" class="btn btn-primary disabled" disabled="disabled">Loading</button>
+              (It will take several minutes)</div>
+            <div class="row top-margin">
+            </div>
+            <div>
+              <pre id="log"></pre>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/platform/1.3.5/platform.js"></script>
@@ -76,6 +76,6 @@
     <script src="loader.js"></script>
     <script src="base.js"></script>
     <script src="perf_helpfunc.js"></script>
-    <script src="perf_blur.js"></script>
+    <script src="perf_gaussianBlur.js"></script>
   </body>
 </html>
